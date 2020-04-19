@@ -15,6 +15,7 @@ namespace LoginAssignment
     {
         public void Configuration(IAppBuilder app)
         {
+           // const string connectionString = @"Data Source = (localdb)\MSSQLLocalDB; Initial Catalog = SecurityDemo; Integrated Security = SSPI;";
             const string connectionString = @"Data Source=LAPTOP-2BLG4G2C\GARGI_SQLSERVER;Initial Catalog=SecurityDemo;Integrated Security=SSPI;";
             app.CreatePerOwinContext(() => new IdentityDbContext(connectionString));
             app.CreatePerOwinContext<UserStore<IdentityUser>>((opt, cont) => new UserStore<IdentityUser>(cont.Get<IdentityDbContext>()));
