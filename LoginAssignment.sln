@@ -1,15 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.705
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginAssignment", "LoginAssignment\LoginAssignment.csproj", "{729432CF-9BC9-4525-B804-250114B301B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginConsole", "LoginConsole\LoginConsole.csproj", "{091B5A8A-48C9-499D-8EA7-71DE66F8D92E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginLibrary", "LoginLibrary\LoginLibrary.csproj", "{5974D3C4-F5D7-4F6F-B153-8951D77ACAD6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserConsole", "UserConsole\UserConsole.csproj", "{4AD567FB-208A-49A9-9691-B811BAB80249}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +21,6 @@ Global
 		{091B5A8A-48C9-499D-8EA7-71DE66F8D92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{091B5A8A-48C9-499D-8EA7-71DE66F8D92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{091B5A8A-48C9-499D-8EA7-71DE66F8D92E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5974D3C4-F5D7-4F6F-B153-8951D77ACAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5974D3C4-F5D7-4F6F-B153-8951D77ACAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5974D3C4-F5D7-4F6F-B153-8951D77ACAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5974D3C4-F5D7-4F6F-B153-8951D77ACAD6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4AD567FB-208A-49A9-9691-B811BAB80249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4AD567FB-208A-49A9-9691-B811BAB80249}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4AD567FB-208A-49A9-9691-B811BAB80249}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4AD567FB-208A-49A9-9691-B811BAB80249}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
