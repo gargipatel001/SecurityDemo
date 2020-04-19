@@ -1,0 +1,32 @@
+﻿@model LoginAssignment.Models.LoginModel
+@{ Layout = "~/Views/Shared/_LoginLayout.cshtml"; }
+<h1>Login</h1>
+<hr />
+@using (Html.BeginForm("Login", "Account", FormMethod.Post))
+{
+    <div class="form-horizontal">
+        @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+        @*@Html.ValidationSummary()*@
+        <div class="form-group">
+            <label style="color:red;">*</label>@Html.LabelFor(x => x.Username, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(x => x.Username)
+                @*@Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })*@
+            </div>
+        </div>
+        <div class="form-group">
+            <label style="color:red;">*</label> @Html.LabelFor(x => x.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.PasswordFor(x => x.Password)
+                @*@Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })*@
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Login" class="btn btn-primary" />
+            </div>
+        </div>
+        @*<input class="btn" type="submit" value="Login" />*@
+    </div>
+}
+
